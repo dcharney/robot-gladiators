@@ -188,8 +188,6 @@ var startGame = function() {
 
 var endGame = function() {
     window.alert("The game has now ended. Let's see how you did!");
-
-    debugger;
   
     // check localStorage for high score, if it's not there, use 0
     var highScore = localStorage.getItem("highscore");
